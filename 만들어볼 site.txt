@@ -1,5 +1,5 @@
 taotajima.com = 만들고싶은 site
 내가만든 사이트
-http://amarans.dothome.co.kr/web/index.html#cont_cont
+http://amarans.dothome.co.kr/web/index.html
 사이트만들때 필요한
 https://www.dothome.co.kr/my/service/web/basic/detail.php
