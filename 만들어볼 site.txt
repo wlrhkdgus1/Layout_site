@@ -1,6 +1,8 @@
 taotajima.com = 만들고싶은 site
 내가만든 사이트
 http://amarans.dothome.co.kr/web/index.html
+구글 앱 만들기 클릭시 내가 만든 크롬앱 사이트 켜짐. 이력서 용
+
 사이트만들때 필요한
 https://www.dothome.co.kr/my/service/web/basic/detail.php
 파일질라 및 마이닷홈 비밀번호 ! 임 @ ㄴㄴ
