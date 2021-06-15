@@ -5,3 +5,4 @@ em = 주관적인 강조 // 글씨강조
 strong = 실제중요표시 강조 // 글씨의 의미 강조
 
 https://kenwheeler.github.io/slick/ 슬릭사이트
+슬릭사용법을 익히시오
