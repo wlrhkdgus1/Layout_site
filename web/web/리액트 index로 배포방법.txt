@@ -1,0 +1,1 @@
+리액트 서버연동방법 / build 후에 json 파일에 "homepage" : '/'; 추가
