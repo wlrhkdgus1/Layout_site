@@ -8,14 +8,14 @@
 
 /* 레이아웃 */
 #wrap {}
-#header {height: 325px; background: url(../img/header_bg.jpg)center top repeat-x;}
+#header {height: 325px; background: url(../img/header1_bg.jpg)center top repeat-x;}
 #contents {}
-#footer {border-top: 1px solid #eee;}
+#footer {border-top: 1px solid #ccc;}
 
 /* 컨텐츠 레이아웃 */
 #cont_nav {background-color: #f6fdff; display: none;}
 #cont_tit {background-color: #EAF7FD;}
-#cont_ban {background-color: #dceff7;}
+#cont_ban {background-color: #d1eef1}
 #cont_cont {background-color: #f6fdff;}
 
 /* 컨테이너 */
@@ -26,9 +26,9 @@
 .header .header-menu a {color: #fff; padding: 10px 0px 10px 13px; display: inline-block;}
 .header .header-menu a:hover {color: #666;}
 .header .header-tit {text-align: center;}  
-.header .header-tit h1 {background-color: #4aa8d4; font-size: 28px; padding: 5px 20px 6px 20px; display: inline-block; color: #fff; margin-top: 40px; font-weight: normal; text-transform: uppercase;}
-.header .header-tit a {display: inline-block; background-color: #2698cb; font-size: 18px; color: #fff; padding: 5px 20px 6px 20px; margin-top: -5px;}
-.header .header-icon {text-align: center; margin-top: 30px;}
+.header .header-tit h1 { font-size: 34px; padding: 5px 20px 6px 20px; color: #fff; display: inline-block; margin-top: 20px; font-weight: normal; text-transform: uppercase;}
+.header .header-tit a {display: inline-block;  font-size: 18px; color: #fff; text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff; padding: 33px 20px 6px 20px; margin-top: 21px;}
+.header .header-icon {text-align: center; margin-top: 20px;}
 .header .header-icon a {width: 60px; height: 60px; display: inline-block; background: url(../img/icon.png); margin: 0 3px;}
 .header .header-icon a.icon1 {background-position: 0 0;}
 .header .header-icon a.icon2 {background-position: 0 -60px;}
@@ -63,22 +63,21 @@
 .tit .btn {position: absolute; top: 5px; right: 0; width: 60px; height: 60px; background: url(../img/icon.png) no-repeat 0 -600px;}
 .tit .btn.on {background-position: 0 -660px;}
 
-/* 배너 
-.ban {position: relative; padding: 24px 0 20px;}
-.ban a.prev {position: absolute; left: -80px; top: 60px; width: 43px; height: 43px; background: #ccc; background: url(../img/icon.png) no-repeat -150px 0;} 
-.ban a.next {position: absolute; right: -80px; top: 60px; width: 43px; height: 43px; background: #ccc; background: url(../img/icon.png) no-repeat -150px -43px;}
+/* 배너 */
+/*.ban {position: relative; padding: 24px 0 20px;}
+.ban a.prev {position: absolute; left: -80px; top: 60px; width: 43px; height: 43px; background: #ccc; background: url(../img/icon.png) no-repeat -150px 0; text-indent: -9999px;} 
+.ban a.next {position: absolute; right: -80px; top: 60px; width: 43px; height: 43px; background: #ccc; background: url(../img/icon.png) no-repeat -150px -43px; text-indent: -9999px;}
 .ban a.prev:hover {background-position: -193px 0;}
 .ban a.next:hover {background-position: -193px -43px;}
 .ban ul {overflow: hidden;}
 .ban ul li {float: left; width: 330px;}
-.ban ul li:last-child {text-align: right;}  ie9부터 적용
-.ban ul li:nth-child(2) {text-align: center;}   ie9부터 적용
+.ban ul li:last-child {text-align: right;}
+.ban ul li:nth-child(2) {text-align: center;} 
 .ban ul li.ban_img1 {text-align: left;}
 .ban ul li.ban_img2 {text-align: center;}
 .ban ul li.ban_img3 {text-align: right;}
 .ban ul li img {border: 4px solid #dcdcdc;}
-.ban ul li img:hover {border-color: #98bcdc;} */
-
+.ban ul li img:hover {border-color: #98bcdc;} /*
 
 /* 슬릭 배너 */
 .ban {position: relative; padding: 24px 0 20px;}
@@ -86,7 +85,7 @@
 .ban .slick-next {position: absolute; right: -80px; top: 80px; width: 43px; height: 43px; background: #ccc; background: url(../img/icon.png) no-repeat -150px -43px; text-indent: -9999px;}
 .ban .slick-prev:hover {background-position: -193px 0;}
 .ban .slick-next:hover{background-position: -193px -43px;}
-.ban img {border: 4px solid #dcdcdc;}
+.ban img {border: 5px solid #dcdcdc;}
 .ban img:hover {border-color: #98bcdc;}
 .ban .slick-slide {margin: 10px;}
 .ban .slick-dots {position: absolute; bottom: 15px; display: block; width: 100%; text-align: center;}
@@ -129,7 +128,7 @@
 .notice a.more {position: absolute; right: 0; top: 0; display: block; background: url(../img/icon.png) -150px -90px; width: 17px; height: 17px;}
 
 /* 게시판2 */
-.notice2 {position: relative;}
+.notice2 {position: relative; margin-top: 15px;}
 .notice2 h4 {font-size: 14px; color: #0093bd; padding-bottom: 3px; font-weight: bold;}
 .notice2 li {overflow: hidden; background: url(../img/dot.gif) no-repeat 0 8px; padding-left: 8px;}
 .notice2 li a {float: left; width: 65%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
@@ -137,18 +136,19 @@
 .notice2 a.more {position: absolute; right: 0; top: 0; display: block; background: url(../img/icon.png) -150px -90px; width: 17px; height: 17px;}
 
 /* 게시판3 */
-.notice3 {position: relative;}
+.notice3 {position: relative}
 .notice3 h4 {font-size: 14px; color: #0093bd; padding-bottom: 3px; font-weight: bold;}
 .notice3 li {position: relative; padding: 8px 0 14px 60px;}
-.notice3 li a img {width: 50px; position: absolute; left: 0; top: 0; border: 1px solid #0093bd;}
+.notice3 li a img {width: 50px; position: absolute; left: 0; top: 0;  border: 1px solid #0093bd;}
 .notice3 li a strong {display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 .notice3 li a span {display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px;}
-.notice2 a.more {position: absolute; right: 0; top: 0; display: block; background: url(../img/icon.png) -150px -90px; width: 17px; height: 17px;}
+.notice3 a.more {position: absolute; right: 0; top: 0; display: block; background: url(../img/icon.png) -150px -90px; width: 17px; height: 17px;}
 
 /* 마우스 오버효과1 */
 .notice_hover h4 {font-size: 14px; color: #0093bd; padding-bottom: 3px; font-weight: bold;}
 .notice_hover ul {overflow: hidden;}
 .notice_hover li {float: left; width: 93px; margin-right: 5px; text-align: center;}
+.notice_hover li.a{float: left; width: 93px; margin-right: 5px; text-align: left;}
 .notice_hover li:last-child {margin-right: 0;} /* ie9부터 적용 */
 .notice_hover li.last {margin-right: 0;} /* 모든 브라우저에 적용 */
 .notice_hover li span {position: relative; display: block; width: 93px; height: 93px; line-height: 93px;}
@@ -169,21 +169,21 @@
 .notice_hover2 li a span:hover em {visibility: visible;}
 .notice_hover2 li a strong {padding-top: 3px; display: inline-block; font-size: 12px;}
 
-/* 콘텐츠 id     요소를 보이지 않게하는 방법 
-1. display: none; -- display: block; (영역이 사라짐)
-2. visibility: hidden; -- visibility: visible; (영역유지)
-3. opasity: 0; -- opasity: 1; (영역유지)
-4. width: 0; height: 0; overflow: hidden;
+/* 콘텐츠 요소를 보이지 않게 하는 방법 . 보이는방법
+1. display:none -- display:block (영역이 사라짐)
+2. visibility: hidden; -- visibility: (영역 유지)
+3. opacity: 0; -- opacity: 1; (영역 유지)
+4. width: 0; height:0; overflow:hidden;
 */
 
 /* 탭 메뉴 */
-.tab_menu {position: relative; border: 1px solid #ccc; padding: 8px; height: 105px;} 
+.tab_menu {position: relative; border: 1px solid #ccc; padding: 8px; height: 105px;}
 .tab_menu ul {overflow: hidden; border-bottom: 1px solid #ccc;}
-.tab_menu ul li {float: left; border: 1px solid #ccc; margin-right: -1px; margin-bottom: -1px;}
+.tab_menu ul li {float: left; border: 1px solid #ccc; margin-right: -1px; margin-bottom: -1px;} /* margin -1px 은 두줄을 한줄로 만들떄*/
 .tab_menu ul li a {padding: 5px 10px; display: block;}
 .tab_menu ul li ul {position: absolute; left: 0; top: 48px; width: 270px; border: 0;}
 .tab_menu ul li ul li {float: none; border: 0; background: url(../img/dot.gif) no-repeat 9px 8px; padding-left: 18px;}
-.tab_menu ul li ul li a {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 100%; padding: 0 0 3px 0;}
+.tab_menu ul li ul li a {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 100%; padding: 0 0 5px 0; } /* 텍스트 한줄효과 3개 overflow: hidden; text-overflow: ellipsis; white-space: nowrap; */
 .tab_menu ul li.active {background: #2c94c4;}
 .tab_menu ul li.active a {color: #fff;}
 .tab_menu ul li.active ul li a {color: #333;}
