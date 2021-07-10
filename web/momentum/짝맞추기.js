@@ -1,6 +1,6 @@
-var 가로 = 4;
-var 세로 = 3;
-var 색깔들 = ['red','red','orange','orange','green','green','yellow','yellow','white','white','pink','pink'];
+var 가로 = 3;
+var 세로 = 4;
+var 색깔들 = ['red','red','orange','orange','green','green','yellow','yellow','white','white','pink','pink',];
 var 색깔후보 = 색깔들.slice();
 var 색깔 = [];
 var 클릭플래그 = true;
@@ -38,7 +38,7 @@ function 카드세팅(가로, 세로){
                 완성카드.push(클릭카드[0]);
                 완성카드.push(클릭카드[1]);
                 클릭카드 =[];
-                if(완성카드.length ===12){
+                if(완성카드.length ===16){
                     var 끝시간 = new Date();
                     alert("축하합니다! 성공!" + (끝시간 - 시작시간) / 1000 + "초 걸렸습니다.");
                     document.querySelector("#wrapper").innerHTML = '';

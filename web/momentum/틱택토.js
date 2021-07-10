@@ -126,6 +126,7 @@ for (var i=1; i<= 3; i +=1){
     }
      테이블.appendChild(줄);
  }
+ 테이블.style.textAlign = 'center';
  바디.append(테이블);
  바디.append(결과);
  console.log('줄들',줄들,'칸들',칸들);

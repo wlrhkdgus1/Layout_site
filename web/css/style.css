@@ -15,7 +15,7 @@
 /* 컨텐츠 레이아웃 */
 #cont_nav {background-color: #f6fdff; display: none;}
 #cont_tit {background-color: #EAF7FD;}
-#cont_ban {background-color: #d1eef1}
+#cont_ban {background-color: #fff}
 #cont_cont {background-color: #f6fdff;}
 
 /* 컨테이너 */
@@ -85,12 +85,12 @@
 .ban .slick-next {position: absolute; right: -80px; top: 80px; width: 43px; height: 43px; background: #ccc; background: url(../img/icon.png) no-repeat -150px -43px; text-indent: -9999px;}
 .ban .slick-prev:hover {background-position: -193px 0;}
 .ban .slick-next:hover{background-position: -193px -43px;}
-.ban img {border: 5px solid #dcdcdc;}
+.ban img {border: 3px solid #fff;}
 .ban img:hover {border-color: #98bcdc;}
 .ban .slick-slide {margin: 10px;}
 .ban .slick-dots {position: absolute; bottom: 15px; display: block; width: 100%; text-align: center;}
 .ban .slick-dots li {display: inline-block; width: 15px; height: 15px; margin: 5px;}
-.ban .slick-dots li button {font-size: 0; line-height: 0; display: block; width: 15px; height: 15px; cursor: pointer; background: #5dbfeb; border-radius: 50%;}
+.ban .slick-dots li button {margin-top: 15px; font-size: 0; line-height: 0; display: block; width: 15px; height: 15px; cursor: pointer; background: #5dbfeb; border-radius: 50%;}
 .ban .slick-dots li.slick-active button {background: #2b91c8;}
 
 /* 컨텐츠 */

@@ -2,15 +2,23 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>짝맞추기</title>
+    <title>카드 짝 맞추기 게임</title>
     <style>
+        #wrapper{
+            text-align: center;
+        }
+        body{
+            background-image: url("images/카드배경.jpg");
+        }
         .card{
             display: inline-block;
-            margin-right: 20px;
-            margin-bottom: 20px;
-            width: 100px;
-            height: 120px;
+            margin-top: 100px;
+            margin-right: 50px;
+            margin-bottom: 100px;
+            width: 140px;
+            height: 160px;
             perspective: 140px;
+            text-align: center;
         }
 
         .card-inner{
@@ -26,8 +34,8 @@
             transform: rotateY(180deg);
         }
         .card-front{
-            background-color: navy;
-        }
+            background-image: url("images/카드.jpg")     
+           }
         .card-back{
             background-color: gainsboro;
         }
@@ -37,14 +45,18 @@
             height: 100%;
             border: 1px solid black;
             backface-visibility: hidden;
+            text-align: center;
         }
         .card-back{
             transform: rotateY(180deg);
+            text-align: center;
         }
     </style>
 </head>
 <body>
+   
     <div id="wrapper"></div>
     <script src="짝맞추기.js"></script>
+
 </body>
 </html>

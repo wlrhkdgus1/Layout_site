@@ -33,14 +33,27 @@ function 공색칠하기(숫자,결과창){
     공.textContent = 숫자;
     공.style.display = 'inline-block';
     공.style.border = '2px solid black';
-    공.style.borderRadius = '33px';
-    공.style.width = '91px';
-    공.style.height ='73px';
+    공.style.borderRadius = '50%';
+    공.style.width = '150px';
+    공.style.height ='150px';
+    공.style.lineHeight = '150px';
     공.style.textAlign = 'center';
     공.style.marginRight = '10px';
-    공.style.fontSize = '55px';
+    공.style.fontSize = '45px';
+    공.style.marginLeft= '100px';
+    공.style.padding = 25;
     공.className = '공아이디'+숫자;
     var 배경색;
+    //text-align: left;
+    //border: 4px solid #ff0000;
+   // border-radius: 50%;
+    //background-color: #ffffff;
+    //background-repeat: no-repeat;
+    //width: 70px;
+   // height: 70px;
+    //display: inline-block;
+   // padding: 25px margin-right: 10px;
+   // margin-left: 10px;
     if(숫자<=10){
         배경색 = 'red';
     }else if(숫자 <=20){
