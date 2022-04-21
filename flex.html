@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .row{
+                display: flex;
+                flex-direction: row;
+                border: thin solid black;
+                width: 300px;
+                height: 600px;
+            }
+            .col{
+                display: flex;
+                flex-direction: column;
+                border: thin solid black;
+                width: 300px;
+                height: 600px;            }
+
+            .contents {
+                flex: 1;
+               font-size: 15px;
+               text-align: center;
+        
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row" >
+            <div class="contents" style="background-color: red;">1</div>
+            <div class="contents" style="background-color: orange;">2</div>
+            <div class="contents" style="background-color: yellow;">3</div>
+        </div>
+        <div class="col">
+            <div class="contents" style="background-color: red;">1</div>
+            <div class="contents" style="background-color: orange;">2</div>
+            <div class="contents" style="background-color: yellow;">3</div>
+        </div>
+    </body>
+</html>
